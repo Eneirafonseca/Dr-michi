@@ -1,0 +1,74 @@
+body {
+    background-color: #FCEEC7;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(/assets/images/Dr.\ Michi\ Header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 110px;
+    font-family: cursive;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+section .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+}
+
+.card .card-image {
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+
+.card .card-image img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.card .card-text {
+    font-size: 25px;
+}
+
+footer {
+    background-color: #4C9700;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer p {
+    font-size: 20px;
+}
